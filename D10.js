@@ -577,9 +577,9 @@ halfTree(3);
 */
 console.log("tree");
 const tree = (n) => {
+  let tot = (n - 1) * 2 + 1;
   for (let i = 0; i < n; i++) {
     let str = "";
-    let tot = (n - 1) * 2 + 1;
     let empty = tot - (1 + i * 2);
     let full = tot - empty;
 
